@@ -109,33 +109,5 @@ This reinforces structured threat detection and aligns alerts with industry-stan
 
 ---
 
-## 📎 Future Enhancements
-
-* Add Security Events via Azure Monitor Agent (AMA)
-* Implement brute-force and failed login detections
-* Automate responses using Logic Apps (SOAR)
-* Expand detections using NRT and Fusion rules
-
----
-
-## 🧾 Resume / Interview Talking Point
-
-> Deployed Microsoft Sentinel in a personal Azure lab, connected Azure Activity logs, built custom KQL-based analytics rules, mapped detections to MITRE ATT&CK, and generated real incidents by simulating Azure resource activity.
-
----
-
-## 📂 Repository Structure (Suggested)
-
-```
-├── README.md
-├── kql/
-│   └── suspicious-azure-resource-activity.kql
-└── screenshots/
-    ├── data-connector.png
-    ├── analytics-rule.png
-    └── incident-view.png
-```
-
----
 
 📌 *This project is for educational and portfolio purposes and reflects practical SOC analyst workflows in a cloud environment.*
